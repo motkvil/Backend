@@ -1,2 +1,1 @@
-# Modify this Procfile to fit your needs
-web: gunicorn 'name-of-application.wsgi'
+web: gunicorn base.wsgi --log-file -
